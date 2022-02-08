@@ -7,6 +7,7 @@ let AppRouting = () => {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/Products" element={<Home/>}/>
                 <Route path="*" element={<Error />} />
             </Routes>
         </BrowserRouter>

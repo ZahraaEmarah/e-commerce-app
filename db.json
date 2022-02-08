@@ -1,7 +1,22 @@
 {
-    "users":[
+    "products":[
         {
-            
+            "id":1,
+            "name":"prod1",
+            "img":"",
+            "price": 200
+        },
+        {
+            "id":2,
+            "name":"prod2",
+            "img":"",
+            "price": 300
+        },
+        {
+            "id":3,
+            "name":"prod3",
+            "img":"",
+            "price": 400
         }
     ]
 }
