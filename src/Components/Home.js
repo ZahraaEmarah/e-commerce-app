@@ -1,11 +1,10 @@
-import ProductsList from '../Containers/ProductsList';
+import ProductsList from '../Containers/AllProducts';
 import NavBar from './NavBar'
 
 let Home = () => {
     return (
         <div>
             <NavBar/>
-            Home
             <ProductsList/>
         </div>
     )

@@ -6,10 +6,13 @@ let Products = (props) => {
     let navigator = useNavigate();
     let RenderProducts = ({ Productsinfo }) => {
         return (
-            <div className="m-5 p-2 d-flex Products" onClick={() => { navigator(`/Products/${Productsinfo.id}`) }}>
-                <img width="100px" className="rounded-circle" src={`/Images/${Productsinfo.pic}`} alt={Productsinfo.name}/>
+            <div className="product-card" onClick={() => { navigator(`/Products/${Productsinfo.id}`) }}>
+                <div className="img-container">
+                    <img className="rounded-circle" src={`/images/${Productsinfo.img}`} alt={Productsinfo.name} />
+                </div>
                 <h1 className="m-3">{Productsinfo.name}</h1>
-                <h3>{Productsinfo.price}</h3>
+                <h3 className="m-3">{Productsinfo.price}$</h3>
+                <button className="btn btn-outline-primary ">Add to cart</button>
             </div>
         )
     }
