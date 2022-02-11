@@ -1,76 +1,129 @@
 {
-    "products":[
+    "products": [
         {
-            "id":1,
-            "name":"prod1",
-            "img":"img1.jpg",
-            "price": 200
+            "id": 1,
+            "name": "prod1",
+            "img": "img1.jpg",
+            "price": 200,
+            "details": "super awesome product"
         },
         {
-            "id":2,
-            "name":"prod2",
-            "img":"img2.jpg",
-            "price": 300
+            "id": 2,
+            "name": "prod2",
+            "img": "img2.jpg",
+            "price": 300,
+            "details": "super awesome product"
         },
         {
-            "id":3,
-            "name":"prod3",
-            "img":"img3.jpg",
-            "price": 400
+            "id": 3,
+            "name": "prod3",
+            "img": "img3.jpg",
+            "price": 400,
+            "details": "super awesome product"
         },
         {
-            "id":4,
-            "name":"prod4",
-            "img":"img4.jpg",
-            "price": 200
+            "id": 4,
+            "name": "prod4",
+            "img": "img4.jpg",
+            "price": 200,
+            "details": "super awesome product"
         },
         {
-            "id":5,
-            "name":"prod5",
-            "img":"img5.jpg",
-            "price": 300
+            "id": 5,
+            "name": "prod5",
+            "img": "img5.jpg",
+            "price": 300,
+            "details": "super awesome product"
         },
         {
-            "id":6,
-            "name":"prod6",
-            "img":"img6.jpg",
-            "price": 400
+            "id": 6,
+            "name": "prod6",
+            "img": "img6.jpg",
+            "price": 400,
+            "details": "super awesome product"
         },
         {
-            "id":7,
-            "name":"prod7",
-            "img":"img7.jpg",
-            "price": 200
+            "id": 7,
+            "name": "prod7",
+            "img": "img7.jpg",
+            "price": 200,
+            "details": "super awesome product"
         },
         {
-            "id":8,
-            "name":"prod8",
-            "img":"img8.jpg",
-            "price": 300
+            "id": 8,
+            "name": "prod8",
+            "img": "img8.jpg",
+            "price": 300,
+            "details": "super awesome product"
         },
         {
-            "id":9,
-            "name":"prod9",
-            "img":"img9.jpg",
-            "price": 400
+            "id": 9,
+            "name": "prod9",
+            "img": "img9.jpg",
+            "price": 400,
+            "details": "super awesome product"
         },
         {
-            "id":10,
-            "name":"prod10",
-            "img":"img10.jpg",
-            "price": 200
+            "id": 10,
+            "name": "prod10",
+            "img": "img10.jpg",
+            "price": 200,
+            "details": "super awesome product"
         },
         {
-            "id":11,
-            "name":"prod11",
-            "img":"img11.jpg",
-            "price": 300
+            "id": 11,
+            "name": "prod11",
+            "img": "img11.jpg",
+            "price": 300,
+            "details": "super awesome product"
         },
         {
-            "id":12,
-            "name":"prod12",
-            "img":"img12.jpg",
-            "price": 400
+            "id": 12,
+            "name": "prod12",
+            "img": "img12.jpg",
+            "price": 400,
+            "details": "super awesome product"
+        }
+    ],
+    "users": [
+        {
+            "id": 1,
+            "isAdmin": "true",
+            "username": "admin",
+            "email": "email@email.com",
+            "password": "admin",
+            "profilepicture": "",
+            "gender": "Female",
+            "shoppingcart": {
+                "totalPrice": 700,
+                "products": [
+                    {
+                        "id": 12,
+                        "name": "prod12",
+                        "img": "img12.jpg",
+                        "price": 400,
+                        "details": "super awesome product",
+                        "count": 1
+                    },
+                    {
+                        "id": 11,
+                        "name": "prod11",
+                        "img": "img11.jpg",
+                        "price": 300,
+                        "details": "super awesome product",
+                        "count": 1
+                    }
+                ]
+            },
+            "orders": [
+                {
+                    "orderId": 1,
+                    "status": "pending",
+                    "products": [],
+                    "totalPrice": 4587,
+                    "date": "1/1/2022"
+                }
+            ]
         }
     ]
 }
