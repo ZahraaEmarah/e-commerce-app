@@ -8,14 +8,13 @@ class AllProducts extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            stud: [],
-
+            prd: [],
         }
     }
     componentDidMount() {
         this.props.GetAllProducts();
     }
-    renderStudents() {
+    renderProducts() {
         if (this.props.prd) {
             if (this.props.prd.length > 0)
                 return (
@@ -34,7 +33,7 @@ class AllProducts extends Component {
             <div>
                 <div className="container mt-5">
                     <div className="row">
-                        {this.renderStudents()}
+                        {this.renderProducts()}
                     </div>
                 </div>
 

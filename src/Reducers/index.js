@@ -6,7 +6,7 @@ import GetProductByID from "./get-product-by-Id";
 let rootReducer = combineReducers({
     list:GetAllProducts,
     details:GetProductByID,
-    search:GetProductByName,
+    productName:GetProductByName,
 });
 
 export default rootReducer;
