@@ -20,7 +20,11 @@ class AllProducts extends Component {
                 return (
                     this.props.prd.map((p) => <div key={p.id} className="col-4 mb-5"><Product Productsinfo={p} /></div>)
                 )
-            return (<div>Not Found</div>)
+            return (
+                <div className="alert alert-danger text-center">
+                    Not Found
+                </div>
+            )
         }
         else {
             if (this.props.allProducts)

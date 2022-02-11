@@ -8,7 +8,7 @@ let Products = (props) => {
         return (
             <div className="product-card" onClick={() => { navigator(`/Products/${Productsinfo.id}`) }}>
                 <div className="img-container">
-                    <img className="rounded-circle" src={`/images/${Productsinfo.img}`} alt={Productsinfo.name} />
+                    <img className="" src={`/images/${Productsinfo.img}`} alt={Productsinfo.name} />
                 </div>
                 <h1 className="m-3">{Productsinfo.name}</h1>
                 <h3 className="m-3">{Productsinfo.price}$</h3>

@@ -20,14 +20,16 @@ let ProductDetails = (props) => {
                 <div className="text-center m-3">
                     <img width="250px" src={`/images/${props.ProductDetails.img}`} alt={props.ProductDetails.name} />
                     <div className="text-right m-3">
-                        <h5><span>Name:</span> {props.ProductDetails.name}</h5>
-                        <h5><span>Price:</span> {props.ProductDetails.price}</h5>
+                        <h5>Name:{props.ProductDetails.name}</h5>
+                        <h5>Price:{props.ProductDetails.price}</h5>
                     </div>
                 </div>
             )
         }
         return (
-            <div>No Product</div>
+            <div className="alert alert-danger text-center">
+                No Product
+            </div>
         )
     }
     return (
@@ -39,7 +41,6 @@ let ProductDetails = (props) => {
 }
 
 export default connect((state) => {
-    // console.log(state)
     return {
         ProductDetails: state.details
     }
