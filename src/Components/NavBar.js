@@ -19,6 +19,9 @@ let NavBar = () => {
                                 <Link className="nav-link" to={"/Login"}>Login</Link>
                             </li>
                             <li className="nav-item">
+                                <Link className="nav-link" to={"/Register"}>Register</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link" to={"/About"}>About</Link>
                             </li>
                         </ul>
